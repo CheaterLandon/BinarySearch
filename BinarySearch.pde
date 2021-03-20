@@ -49,7 +49,7 @@ public int recursiveLinearSearch(int catNumToFind, int startIndex)
 
 public int binarySearch(int catNumToFind)
 {
-  int high = store.length -1;
+  int high = store.length - 1;
   int low = 0;
   while (low <= high)
   {
